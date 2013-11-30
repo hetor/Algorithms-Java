@@ -1,13 +1,12 @@
+package linear_list;
 /**   
  * Description: 
- * Ë³Ğò±í
+ * é¡ºåºè¡¨
  * Copyright (c) 2013
- * @author Administrator  
- * @date 2013Äê9ÔÂ29ÈÕ ÏÂÎç2:47:32 
+ * @author hetao  
+ * @date 2013å¹´9æœˆ29æ—¥ ä¸‹åˆ2:47:32 
  * @version V1.0
  */
-package linear_list;
-
 public class SeqList {
 
 }

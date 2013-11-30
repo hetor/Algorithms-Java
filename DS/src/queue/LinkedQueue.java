@@ -3,9 +3,9 @@ package queue;
 import common.Element;
 
 /**
- * Á´Ê½´æ´¢µÄÁ´±í
- * front½ÚµãÖ¸ÏòÊ×½ÚµãÎª¿Õ£¬²»´æ·ÅÊı¾İ
- * @author hetor
+ * é“¾å¼å­˜å‚¨çš„é“¾è¡¨
+ * frontèŠ‚ç‚¹æŒ‡å‘é¦–èŠ‚ç‚¹ä¸ºç©ºï¼Œä¸å­˜æ”¾æ•°æ®
+ * @author hetao
  * @param <E>
  */
 public class LinkedQueue<E> {

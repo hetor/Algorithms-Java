@@ -1,9 +1,9 @@
 /**   
  * Description: 
- * TODO(ÓÃÒ»¾ä»°ÃèÊö¸ÃÎÄ¼ş×öÊ²Ã´) 
+ * TODO(ç”¨ä¸€å¥è¯æè¿°è¯¥æ–‡ä»¶åšä»€ä¹ˆ) 
  * Copyright (c) 2013
- * @author Administrator  
- * @date 2013Äê10ÔÂ21ÈÕ ÏÂÎç4:28:08 
+ * @author hetao  
+ * @date 2013å¹´10æœˆ21æ—¥ ä¸‹åˆ4:28:08 
  * @version V1.0
  */
 package linked_ist;

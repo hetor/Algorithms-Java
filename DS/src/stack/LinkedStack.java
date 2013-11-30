@@ -1,9 +1,9 @@
 /**   
  * Description: 
- * Á´Õ»
+ * é“¾æ ˆ
  * Copyright (c) 2013
- * @author Administrator  
- * @date 2013Äê9ÔÂ29ÈÕ ÏÂÎç2:40:15 
+ * @author hetao  
+ * @date 2013å¹´9æœˆ29æ—¥ ä¸‹åˆ2:40:15 
  * @version V1.0
  */
 package stack;

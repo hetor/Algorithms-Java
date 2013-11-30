@@ -1,13 +1,12 @@
+package linear_list;
 /**   
  * Description: 
- * Ë«ÏòÑ­»·Á´±í
+ * åŒå‘å¾ªç¯é“¾è¡¨
  * Copyright (c) 2013
- * @author Administrator  
- * @date 2013Äê9ÔÂ29ÈÕ ÏÂÎç3:01:58 
+ * @author hetao  
+ * @date 2013å¹´9æœˆ29æ—¥ ä¸‹åˆ3:01:58 
  * @version V1.0
  */
-package linear_list;
-
 public class DoubleCircularLinkedList {
 	public static void main(String[] args) { 		
 		String[] ss = "123, 234,456 , 789".split("\\s*,\\s*"); 		

@@ -1,10 +1,10 @@
 /**   
  * Description: 
- * Ë³ĞòÕ»
- * ÉèÖÃtopÖ¸Õë£¬Ô¼¶¨top=0Ê±Õ»Îª¿Õ
+ * é¡ºåºæ ˆ
+ * è®¾ç½®topæŒ‡é’ˆï¼Œçº¦å®štop=0æ—¶æ ˆä¸ºç©º
  * Copyright (c) 2013
- * @author Administrator  
- * @date 2013Äê9ÔÂ29ÈÕ ÏÂÎç2:40:03 
+ * @author hetao  
+ * @date 2013å¹´9æœˆ29æ—¥ ä¸‹åˆ2:40:03 
  * @version V1.0
  */
 package stack;

@@ -1,9 +1,9 @@
 /**   
  * Description: 
- * TODO(ÓÃÒ»¾ä»°ÃèÊö¸ÃÎÄ¼ş×öÊ²Ã´) 
+ * TODO(ç”¨ä¸€å¥è¯æè¿°è¯¥æ–‡ä»¶åšä»€ä¹ˆ) 
  * Copyright (c) 2013
- * @author Administrator  
- * @date 2013Äê9ÔÂ29ÈÕ ÏÂÎç7:25:57 
+ * @author hetao  
+ * @date 2013å¹´9æœˆ29æ—¥ ä¸‹åˆ7:25:57 
  * @version V1.0
  */
 package z.test.stack;
@@ -18,11 +18,11 @@ public class UseLinkedStack {
 		for(int i=0; i<10; i++) {
 			ls.push(new Element(i));
 		}
-		System.out.println("Õ»¶¥£º" + ls.getTop());
-		System.out.println("Á´Õ»³¤¶È£º" + ls.getSize());
+		System.out.println("æ ˆé¡¶ï¼š" + ls.getTop());
+		System.out.println("é“¾æ ˆé•¿åº¦ï¼š" + ls.getSize());
 		while(!ls.isEmpty()) {
 			System.out.print(ls.pop() + " ");
 		}
-		System.out.println("\nÁ´Õ»³¤¶È£º" + ls.getSize());
+		System.out.println("\né“¾æ ˆé•¿åº¦ï¼š" + ls.getSize());
 	}
 }

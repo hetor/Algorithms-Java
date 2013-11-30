@@ -5,8 +5,8 @@ import queue.LinkedQueue;
 import stack.ArrayStack;
 
 /**
- * ¶þ²æÊ÷
- * @author hetor
+ * äºŒå‰æ ‘
+ * @author hetao
  * @param <E>
  */
 public class BiTree<E> {

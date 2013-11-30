@@ -1,13 +1,12 @@
+package linear_list;
 /**   
  * Description: 
- * µ¥ÏòÑ­»·Á´±í
+ * å•å‘å¾ªç¯é“¾è¡¨
  * Copyright (c) 2013
- * @author Administrator  
- * @date 2013Äê9ÔÂ29ÈÕ ÏÂÎç3:02:41 
+ * @author hetao  
+ * @date 2013å¹´9æœˆ29æ—¥ ä¸‹åˆ3:02:41 
  * @version V1.0
  */
-package linear_list;
-
 public class SingleCircularLinkedList {
 
 }

@@ -1,11 +1,3 @@
-/**   
- * Description: 
- * 单链表逆置
- * Copyright (c) 2013
- * @author Administrator  
- * @date 2013年9月30日 下午3:49:07 
- * @version V1.0
- */
 package linked_ist;
 
 import common.Element;

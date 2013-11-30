@@ -8,7 +8,7 @@ import common.IFactory;
 
 /**
  * 0 1 2 -1 -1 3 4 -1 -1 -1 5 -1 -1
- * @author hetor
+ * @author hetao
  */
 public class UseBiTree implements IFactory<Element>{
 	
@@ -16,18 +16,18 @@ public class UseBiTree implements IFactory<Element>{
 	
 	public static void main(String[] args) {
 		BiTree<Element> biTree = new BiTree<>(new UseBiTree());
-		System.out.print("\n¶ş²æÊ÷µÄ¸ù£º" + biTree.getRoot());
-		System.out.print("\nÏÈĞò±éÀú¶ş²æÊ÷£º");
+		System.out.print("\näºŒå‰æ ‘çš„æ ¹ï¼š" + biTree.getRoot());
+		System.out.print("\nå…ˆåºéå†äºŒå‰æ ‘ï¼š");
 		biTree.preOrderTraverse();
-		System.out.print("\nÖĞĞò±éÀú¶ş²æÊ÷£º");
+		System.out.print("\nä¸­åºéå†äºŒå‰æ ‘ï¼š");
 		biTree.inOrderTraverse();
-		System.out.print("\nºóĞò±éÀú¶ş²æÊ÷£º");
+		System.out.print("\nååºéå†äºŒå‰æ ‘ï¼š");
 		biTree.postOrderTraverse();
-		System.out.print("\n²ãĞò±éÀú¶ş²æÊ÷£º");
+		System.out.print("\nå±‚åºéå†äºŒå‰æ ‘ï¼š");
 		biTree.levelOrderTraverse();
-		System.out.print("\n·Çµİ¹éÖĞĞò±éÀú¶ş²æÊ÷£º");
+		System.out.print("\néé€’å½’ä¸­åºéå†äºŒå‰æ ‘ï¼š");
 		biTree.inOrderTraverseNonRecursive();
-		System.out.print("\n¶ş²æÊ÷µÄÉî¶È£º" + biTree.depthBiTree());
+		System.out.print("\näºŒå‰æ ‘çš„æ·±åº¦ï¼š" + biTree.depthBiTree());
 	}
 
 	@Override
@@ -36,7 +36,7 @@ public class UseBiTree implements IFactory<Element>{
 			scn = new Scanner(System.in);
 		}
 		int v = scn.nextInt();
-		if(-1 == v) { //-1±íÊ¾ÊäÈë½áÊø
+		if(-1 == v) { //-1è¡¨ç¤ºè¾“å…¥ç»“æŸ
 			return null;
 		}
 		return new Element(v);

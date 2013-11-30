@@ -13,7 +13,7 @@ public class LoopArrayQueue<E> {
 	}
 	
 	public LoopArrayQueue(int initQueSize) {
-		objs = new Object[initQueSize]; //不支持直接new E[initQueSize]
+		objs = new Object[initQueSize]; //new E[initQueSize] is not supported
 		front = rear = 0;
 	}
 	

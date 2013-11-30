@@ -1,13 +1,12 @@
+package linear_list;
 /**   
  * Description: 
- * µ¥Á´±í
+ * å•é“¾è¡¨
  * Copyright (c) 2013
- * @author Administrator  
- * @date 2013Äê9ÔÂ29ÈÕ ÏÂÎç2:52:42 
+ * @author hetao  
+ * @date 2013å¹´9æœˆ29æ—¥ ä¸‹åˆ2:52:42 
  * @version V1.0
  */
-package linear_list;
-
 public class SingleLinkedList<E> {
 	
 	private Node<E> head;
@@ -43,7 +42,7 @@ public class SingleLinkedList<E> {
 	}
 	
 	/**
-	 * µİ¹éÄæÖÃµ¥Á´±í
+	 * ï¿½İ¹ï¿½ï¿½ï¿½ï¿½Ãµï¿½ï¿½ï¿½ï¿½ï¿½
 	 */
 	public void reserveWithRecursion() {
 		reserveWithRecursion(head);
@@ -60,7 +59,7 @@ public class SingleLinkedList<E> {
 	}
 	
 	/**
-	 * ·Çµİ¹éÄæÖÃµ¥Á´±í
+	 * ï¿½Çµİ¹ï¿½ï¿½ï¿½ï¿½Ãµï¿½ï¿½ï¿½ï¿½ï¿½
 	 */
 	public void reserve() {
 		if(null == head || null == head.next) {

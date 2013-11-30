@@ -1,9 +1,9 @@
 /**   
  * Description: 
- * TODO(ÓÃÒ»¾ä»°ÃèÊö¸ÃÎÄ¼ş×öÊ²Ã´) 
+ * TODO(ç”¨ä¸€å¥è¯æè¿°è¯¥æ–‡ä»¶åšä»€ä¹ˆ) 
  * Copyright (c) 2013
- * @author Administrator  
- * @date 2013Äê9ÔÂ29ÈÕ ÏÂÎç3:56:17 
+ * @author hetao  
+ * @date 2013å¹´9æœˆ29æ—¥ ä¸‹åˆ3:56:17 
  * @version V1.0
  */
 package z.test.stack;
@@ -18,11 +18,11 @@ public class UseArrayStack {
 		for(int i=0; i<12; i++) {
 			as.push(new Element(i));
 		}
-		System.out.println("Õ»¶¥£º" + as.getTop());
-		System.out.println("\nÁ´Õ»³¤¶È£º" + as.getStackLength());
+		System.out.println("æ ˆé¡¶ï¼š" + as.getTop());
+		System.out.println("\né“¾æ ˆé•¿åº¦ï¼š" + as.getStackLength());
 		while(!as.isEmpty()) {
 			System.out.print(as.pop() + " ");
 		}
-		System.out.println("\nÁ´Õ»³¤¶È£º" + as.getStackLength());
+		System.out.println("\né“¾æ ˆé•¿åº¦ï¼š" + as.getStackLength());
 	}
 }
