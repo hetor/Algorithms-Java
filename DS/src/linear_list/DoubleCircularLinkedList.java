@@ -8,10 +8,10 @@ package linear_list;
  * @version V1.0
  */
 public class DoubleCircularLinkedList {
-	public static void main(String[] args) { 		
-		String[] ss = "123, 234,456 , 789".split("\\s*,\\s*"); 		
-		for(String s : ss) {
-			System.out.println(s);
-		}
-	}
+    public static void main(String[] args) {        
+        String[] ss = "123, 234,456 , 789".split("\\s*,\\s*");      
+        for(String s : ss) {
+            System.out.println(s);
+        }
+    }
 }
